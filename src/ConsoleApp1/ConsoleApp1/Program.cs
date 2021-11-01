@@ -6,7 +6,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Hello World!");
+            Console.WriteLine($"Now is {DateTime.Now}");
+            Console.ForegroundColor = ConsoleColor.White;
         }
     }
 }
